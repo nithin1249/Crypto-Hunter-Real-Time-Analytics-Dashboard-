@@ -30,9 +30,3 @@ A high-performance, responsive cryptocurrency tracking dashboard built with Reac
 * **API Integration:** Axios
 * **Routing:** React Router DOM
 * **Deployment:** Netlify
-
-## ⚙️ Local Development
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/nithin1249/crypto-hunter.git](https://github.com/nithin1249/crypto-hunter.git)
