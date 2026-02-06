@@ -18,14 +18,14 @@ Crypto-Hunter is built using a **decoupled Full-Stack architecture**, ensuring a
 * **Data Sourcing:** High-frequency data ingestion from the **CoinGecko API**.
 
 ---
+## 🏗️ Tech Stack
 
-## 🛠️ Engineering Highlights
-
-- **Custom Backend Architecture:** Engineered a **Node.js** server to manage user data, moving beyond a client-only dashboard to a fully persistent web application.
-- **Secure User Storage:** Implemented a **MongoDB** schema to store and synchronize personalized user watchlists, ensuring data is saved and accessible across all user sessions and devices.
-- **Identity & Access Management:** Integrated **Google OAuth** via Firebase to offload sensitive credential management to a secure provider while maintaining internal user profiles.
-- **Global State Optimization:** Orchestrated a centralized **React Context** store to manage complex states—including currency localization (USD/INR) and authentication status—eliminating prop-drilling.
-- **Performance-Tuned Rendering:** Utilized React Hooks (`useMemo`, `useCallback`) to manage high-frequency API polling, preventing unnecessary re-renders during volatile market updates.
+* **Frontend:** React.js, Material UI (MUI), Chart.js
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB, Firebase Firestore
+* **Authentication:** Firebase Auth (Google OAuth)
+* **API Integration:** Axios
+* **Deployment:** Netlify
 
 ---
 
@@ -39,11 +39,13 @@ Crypto-Hunter is built using a **decoupled Full-Stack architecture**, ensuring a
 
 ---
 
-## 🏗️ Tech Stack
+## 🛠️ Engineering Highlights
 
-* **Frontend:** React.js, Material UI (MUI), Chart.js
-* **Backend:** Node.js, Express.js
-* **Database:** MongoDB, Firebase Firestore
-* **Authentication:** Firebase Auth (Google OAuth)
-* **API Integration:** Axios
-* **Deployment:** Netlify
+- **Custom Backend Architecture:** Engineered a **Node.js** server to manage user data, moving beyond a client-only dashboard to a fully persistent web application.
+- **Secure User Storage:** Implemented a **MongoDB** schema to store and synchronize personalized user watchlists, ensuring data is saved and accessible across all user sessions and devices.
+- **Identity & Access Management:** Integrated **Google OAuth** via Firebase to offload sensitive credential management to a secure provider while maintaining internal user profiles.
+- **Global State Optimization:** Orchestrated a centralized **React Context** store to manage complex states—including currency localization (USD/INR) and authentication status—eliminating prop-drilling.
+- **Performance-Tuned Rendering:** Utilized React Hooks (`useMemo`, `useCallback`) to manage high-frequency API polling, preventing unnecessary re-renders during volatile market updates.
+
+
+
